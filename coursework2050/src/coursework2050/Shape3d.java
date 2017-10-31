@@ -9,15 +9,10 @@ package coursework2050;
  *
  * @author M00608647
  */
-public abstract class Shape {
-    private String name;
-    
-    
-    public Shape(String name){
-    this.name = name;
+public abstract class Shape3d extends Shape{
+
+    public Shape3d(String name) {
+        super(name);
     }
     
-    public String getname(){
-    return name;
-    }
 }

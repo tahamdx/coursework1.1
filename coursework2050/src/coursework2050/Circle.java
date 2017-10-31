@@ -9,13 +9,15 @@ package coursework2050;
  *
  * @author M00608647
  */
-public class Circle extends shape2d {
+public class Circle extends Shape2d {
     
-    private double Radius;
+    private final double Radius;
    
     public Circle(String name, double radius){
-    Radius = radius;
+        super(name);
+        Radius = radius;
     }
+    
     
     public double getArea(){
     return Math.PI*Math.pow(Radius, 2);

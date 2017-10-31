@@ -9,6 +9,10 @@ package coursework2050;
  *
  * @author M00608647
  */
-public class Cylinder extends shape3d{
+public class Cylinder extends Shape3d{
+
+    public Cylinder(String name) {
+        super(name);
+    }
     
 }

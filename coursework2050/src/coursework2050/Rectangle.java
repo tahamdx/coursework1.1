@@ -9,21 +9,22 @@ package coursework2050;
  *
  * @author M00608647
  */
-public class Rectangle extends shape2d {
+public class Rectangle extends Shape2d {
 
-    private double Height;
-    private double Width;
-    
-    public Rectangle(String name, double h, double w){
-    Height = h;
-    Width = w;
+    final private double Height;
+    final private double Width;
+
+    public Rectangle(String name, double h, double w) {
+        super(name);
+        Height = h;
+        Width = w;
     }
-    
-    public double getArea(){
-    return Height*Width;
+
+    public double getArea() {
+        return Height * Width;
     }
-    
-    public double getPerimeter(){
-    return (Height + Width)*2;
+
+    public double getPerimeter() {
+        return (Height + Width) * 2;
     }
 }

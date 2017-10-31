@@ -9,6 +9,10 @@ package coursework2050;
  *
  * @author M00608647
  */
-public class Sphere extends shape3d{
+public class Sphere extends Shape3d{
+
+    public Sphere(String name) {
+        super(name);
+    }
     
 }
